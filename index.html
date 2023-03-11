@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <!--FUENTES ligamos fuentes de la pagina GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+          <!--Titulo -->
+        <title>Pagina web de gatitos</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    
+    <body><!--BODY Es el cuerpo de nuestro archivo-->
+        <h1> Página de Mascotas</h1>
+        <h2>Esta es una pagina de perros y gatos</h2>
+        <h3> Hecha por: Ethiel Loo</h3>
+
+
+        <!--Agregar imagen desde Internet-->
+        <!--Buscar imagen en Internet que nos guste dar clic derecho y dar en copiar direccion de imagen-->
+        <img src="https://www.akc.org/wp-content/uploads/2017/11/Siberian-Husky-standing-outdoors-in-the-winter.jpg">
+        <!--Ir a ver y ajuste de palabra para ver toda la liga completa-->
+
+        <br>
+        <!--Agregar imagen desde Computadora-->
+        <!--Descargar imagen y guardarla en la carpeta de imagenes-->
+        <img src="imagenes/perro.jpg">
+
+
+        <!--Listas ordenadas y desordenadas-->
+        <h3>Lista de Perros</h3>
+
+
+        <p>3 cosas que los perros <strong>aman</strong></p>
+        <!--Lista ordenada-->
+        <ol>
+            <li>Dormir</li>
+            <li>Jugar</li>
+            <li>Comer</li>
+            <li>Aullar</li>
+        </ol>
+
+        <!--Lista Desordenada -->
+        <p>Tres cosas que los perros <strong>odian</strong></p>
+        <ul>
+            <li>Que los despierten</li>
+            <li>En caso de machos que los quieran dominar otros perros</li>
+            <li>Que les quiten su comida y juguetes</li>
+        </ul>
+     
+
+        <!--Crear enlaces externos-Hypervinculos-->
+        <p>Si quieres ver mas imagenes de Husky<a href="https://www.google.com/search?q=fotos+de+husky&sxsrf=AJOqlzUeB2v3Qalk5OV_QuaRHKxlfJ_yWA:1675529003769&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiik9L4p_z8AhUlO0QIHcwbBIMQ_AUoAXoECAEQAw&biw=1536&bih=746&dpr=1.25" target="_blank"> da clic aqui</a> </p>
+
+
+        <form>
+            
+        <!--Formulario con botones de radio-->
+            <p>¿Tu perro es cachorro o es adulto?</p>
+            <label>
+                <input id="cachorro" type="radio" value="cachorro" name="cachorro-adulto" checked>Cachorro
+            </label>
+
+            <br>
+
+            <label>
+                <input id="adulto" type="radio" value="adulto" name="cachorro-adulto">Adulto
+            </label>
+
+            <!--Con casillas de verificasión-->
+            <p>¿Cómo es el caracter de tu perro?</p>
+            <label>
+                <input id="perezoso" type="checkbox" value="perezoso" name="personalidad" checked>Perezoso
+                <br>
+                <input id="jugueton" type="checkbox" value="jugueton" name="personalidad">Jugueton
+                <br>
+                <input id="Energico" type="checkbox" value="Energico" name="personalidad">Energico
+            </label>
+
+        </form>
+
+        <footer>
+            <p><small>Esta pàgina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolochicas pro</a></small></p>
+        </footer>
+
+    </body>
+</html>
